@@ -26,6 +26,8 @@ import RegistrarObservacion from "./MisProyectosLider/RegistrarObservacion.jsx";
 import Login from "./LoginYRegistro/Login";
 import Registro from "./LoginYRegistro/Registro";
 
+import ListarUsuarios from "./ListarUsuarios/ListarUsuarios";
+import ListarUsuariosEstudiantes from "./ListarUsuariosEstudiantes/ListarUsuariosEstudiantes";
 
 function App() {
   
@@ -87,6 +89,12 @@ function App() {
         <Route path="/registro" exact>
           <Registro />
         </Route>      
+        <Route path="/listar-usuarios" exact>
+          <ListarUsuarios />
+        </Route>
+        <Route path="/listar-usuarios-estudiantes" exact>
+          <ListarUsuariosEstudiantes />
+        </Route>
         <Route path="/forbbiden" exact>
           <ForbidenComponent />
 
