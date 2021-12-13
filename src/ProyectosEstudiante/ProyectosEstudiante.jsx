@@ -73,7 +73,7 @@ function ProyectosEstudiante() {
 
   return (
     <Fragment>
-      <h2 className="te">Proyectos Disponibles</h2>
+      <h2 className="te">Proyectos Disponibles Estudiante</h2>
       <div className="row">
         <div className="col ">
          

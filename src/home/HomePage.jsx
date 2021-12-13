@@ -66,12 +66,6 @@ function HomePage() {
   console.log(exist)
 
    }
-
-
-   
-  
-  
-
     const getService = async () => {
         try {
             const response = await fetch("http://localhost:3001/get-Service");

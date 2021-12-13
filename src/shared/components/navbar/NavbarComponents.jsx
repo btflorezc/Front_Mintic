@@ -22,6 +22,12 @@ function NavbarComponents() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav" >
           <ul class="navbar-nav">
+          <li class="nav-item">
+              <Link to="/login" class="nav-link nav" href="#">Login</Link>
+            </li>
+            <li class="nav-item">
+              <Link to="/registro" class="nav-link nav" href="#">Registro</Link>
+            </li>
             <li class="nav-item">
               <Link to="/proyectos-home" class="nav-link nav" aria-current="page" href="#">Proyectos</Link>
             </li>

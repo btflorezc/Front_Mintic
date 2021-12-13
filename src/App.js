@@ -23,6 +23,8 @@ import MisProyectosLider from "./MisProyectosLider/MisProyectosLider.jsx";
 import FormularioProyecto from "./MisProyectosLider/FormularioProyecto.jsx";
 import EditarProyecto from "./MisProyectosLider/EditarProyecto.jsx";
 import RegistrarObservacion from "./MisProyectosLider/RegistrarObservacion.jsx";
+import Login from "./LoginYRegistro/Login";
+import Registro from "./LoginYRegistro/Registro";
 
 
 function App() {
@@ -79,8 +81,12 @@ function App() {
         <Route path="/registrar-observacion" exact>
           <RegistrarObservacion />
         </Route>
-     
-      
+        <Route path="/login" exact>
+          <Login />
+        </Route>
+        <Route path="/registro" exact>
+          <Registro />
+        </Route>      
         <Route path="/forbbiden" exact>
           <ForbidenComponent />
 

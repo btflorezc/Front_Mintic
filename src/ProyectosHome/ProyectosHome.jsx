@@ -3,6 +3,7 @@ import ProyectosAdmin from '../ProtectosAdmin/ProyectosAdmin';
 import ProyectosEstudiante from '../ProyectosEstudiante/ProyectosEstudiante';
 import ForbidenComponent from '../shared/components/fordiben/ForbidenComponent';
 
+
   
 
 function ProyectosHome() {
@@ -19,6 +20,6 @@ function ProyectosHome() {
    if (user.rol === 'pendiente')
     return <ForbidenComponent></ForbidenComponent>;
       
-    }
+}
     
-    export default ProyectosHome;
+export default ProyectosHome;

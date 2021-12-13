@@ -109,7 +109,7 @@ const datosTabla = data.proyectos.map(
           return (
             <Fragment>
                
-           <h2 className="te" style={{ textAlign:'center' }} >Proyectos Disponibles</h2>
+           <h2 className="te" style={{ textAlign:'center' }} >Proyectos Disponibles Administrador</h2>
          <Link to="/editar-proyecto-admin-pendiente">  <Button variant="dark" style={{ marginLeft:'11%', borderRadius:'10px' }} > Proyectos pendientes </Button></Link> 
             
             <div className="row">
